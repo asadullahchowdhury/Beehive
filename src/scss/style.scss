@@ -1,0 +1,26 @@
+@import "variables";
+@import "global";
+@import "include/header";
+@import "pages/header";
+@import "pages/homepage";
+@import "pages/photos";
+@import "pages/member";
+@import "pages/jobs";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  //font-family: 'Nunito Sans', sans-serif;
+  font-family: "Quicksand", Verdana, sans-serif;
+}
+
+body {
+
+}
+
+
+
+
+
+

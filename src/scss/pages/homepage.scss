@@ -8,8 +8,8 @@
 
   .login-card {
     border: none;
-    max-width: 400px;
-    width: 400px;
+    max-width: 450px;
+    width: 450px;
     padding: 10px;
 
     .logo {
@@ -119,14 +119,10 @@
     position: relative;
 
     .slider {
-      .carousel__slide {
-        display: block !important;
-      }
-
       .slider-item {
         position: relative;
         background-color: transparent;
-        width: 100% !important;
+        width: 100%;
         height: 100vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -142,7 +138,6 @@
         }
 
         .slider-content {
-          text-align: left !important;
           padding-top: 40%;
           padding-left: 10%;
           max-width: 620px;
@@ -199,59 +194,33 @@
       }
     }
 
-    .carousel__prev {
-      top: 90%;
+    .owl-nav {
+      position: absolute;
+      bottom: 60px;
       left: 80px;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: rgba(0, 0, 0, 0.7);
-      font-size: 18px;
-      color: $white;
-      margin-right: 5px;
-      font-weight: 300;
-    }
 
-    .carousel__next {
-      top: 90%;
-      left: 140px;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      background-color: rgba(0, 0, 0, 0.7);
-      font-size: 18px;
-      color: $white;
-      margin-right: 5px;
-      font-weight: 300;
-    }
+      .owl-next {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-size: 18px;
+        color: $white;
+        font-weight: 300;
+        margin-left: 5px;
+      }
 
-    //.owl-nav {
-    //  position: absolute;
-    //  bottom: 60px;
-    //  left: 80px;
-    //
-    //  .owl-next {
-    //    width: 40px;
-    //    height: 40px;
-    //    border-radius: 50%;
-    //    background-color: rgba(0, 0, 0, 0.7);
-    //    font-size: 18px;
-    //    color: $white;
-    //    font-weight: 300;
-    //    margin-left: 5px;
-    //  }
-    //
-    //  .owl-prev {
-    //    width: 40px;
-    //    height: 40px;
-    //    border-radius: 50%;
-    //    background-color: rgba(0, 0, 0, 0.7);
-    //    font-size: 18px;
-    //    color: $white;
-    //    margin-right: 5px;
-    //    font-weight: 300;
-    //  }
-    //}
+      .owl-prev {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.7);
+        font-size: 18px;
+        color: $white;
+        margin-right: 5px;
+        font-weight: 300;
+      }
+    }
   }
 }
 
