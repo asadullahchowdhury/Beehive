@@ -6,8 +6,9 @@
 </template>
 <script>
 import AuthHeader from '../Pages/include/auth-header.vue'
+
 export default {
-  components:{
+  components: {
     AuthHeader,
   }
 }

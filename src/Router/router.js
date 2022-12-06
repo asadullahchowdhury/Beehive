@@ -12,7 +12,7 @@ const routes = [
         component: () => import('../Layout/page-layout.vue'),
         children: [
             {path: '/', name: 'Dashboard', component: () => import('../Pages/page-dashboard.vue')},
-
+            {path: '/photos', name: 'Photos', component: () => import('../Pages/page-photo.vue')},
 
         ]
     },
@@ -22,6 +22,7 @@ const routes = [
         component: () => import('../Layout/auth-layout.vue'),
         children: [
             {path: '/auth/login', name: 'Login', component: () => import('../Pages/page-login.vue')},
+
 
         ]
     },
