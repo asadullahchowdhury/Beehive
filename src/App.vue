@@ -11,5 +11,5 @@ export default defineComponent({
 
 <style lang="scss">
 //@import "./resources/scss/style";
-@import "src/Scss/style.scss";
+@import "src/scss/style.scss";
 </style>
