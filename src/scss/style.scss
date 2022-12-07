@@ -1,12 +1,14 @@
 @import "_variables.scss";
 @import 'global.scss';
 @import 'include/header.scss';
+@import 'include/left-side-bar.scss';
 @import 'pages/header.scss';
 @import "pages/homepage.scss";
 @import "pages/photos.scss";
 @import "pages/jobs.scss";
 @import "pages/member.scss";
 @import "pages/activity.scss";
+@import "pages/videos.scss";
 
 
 * {
