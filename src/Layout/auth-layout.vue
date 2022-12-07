@@ -1,15 +1,17 @@
 <template>
   <div class="layout_body">
-    <AuthHeader/>
+    <headerComponentAuth/>
     <router-view></router-view>
   </div>
 </template>
 <script>
-import AuthHeader from '../Pages/include/auth-header.vue'
+
+
+import headerComponentAuth from "@/components/headerComponentAuth";
 
 export default {
-  components: {
-    AuthHeader,
+  components:{
+    headerComponentAuth,
   }
 }
 </script>

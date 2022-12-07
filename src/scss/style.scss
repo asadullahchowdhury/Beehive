@@ -1,0 +1,24 @@
+@import "_variables.scss";
+@import 'global.scss';
+@import 'include/header.scss';
+@import 'pages/header.scss';
+@import "pages/homepage.scss";
+@import "pages/photos.scss";
+@import "pages/jobs.scss";
+@import "pages/member.scss";
+@import "pages/activity.scss";
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  //font-family: 'Nunito Sans', sans-serif;
+  font-family: "Quicksand", Verdana, sans-serif;
+}
+
+body {
+
+}
+

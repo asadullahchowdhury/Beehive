@@ -1,25 +1,12 @@
 <template>
   <div class="photos-page">
-    <!--right side contaainer-->
-    <div class="right-side-container">
-      <!-- right side header-->
-      <div class="right-side-header">
-        <div class="search-input">
-          <i class="las la-search"></i>
-          <input type="search" class="form-control shadow-none" placeholder="Search...">
-        </div>
 
-        <div class="each-options">
-          <a href="#" class=" btn-cart-2"> <i class="las la-shopping-bag"></i></a>
-          <a href="#">Login</a>
-        </div>
-      </div>
 
       <div class="row">
         <div class="col-lg-8 ">
           <div class="photos-gallery col-glry">
             <div class="tab-header">
-              <a href="#" class="title">All photos</a>
+              <a href="#" class="title">All Videos</a>
             </div>
 
             <div class="filter-section">
@@ -312,7 +299,7 @@
       </div>
     </div>
 
-  </div>
+
 </template>
 
 <script>
