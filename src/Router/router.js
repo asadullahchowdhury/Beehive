@@ -10,7 +10,6 @@ import PageDashboard from "@/Pages/page-dashboard";
 import PagePhotos from "@/Pages/page-photos";
 import PageJobs from "@/Pages/page-jobs";
 import PageMembers from "@/Pages/page-members";
-import PageActivity from "@/Pages/page-activity";
 import PageVideos from "@/Pages/page-videos";
 
 
@@ -31,8 +30,7 @@ const routes = [
                     {path: '/photos', name: 'Photos', component: PagePhotos},
                     {path: '/jobs', name: 'Jobs', component: PageJobs},
                     {path: '/members', name: 'Members', component: PageMembers},
-                    {path: '/activity', name: 'Activity', component: PageActivity},
-                    {path: '/videos', name: 'Videos', component: PageVideos},
+                        {path: '/videos', name: 'Videos', component: PageVideos},
                 ]
             },
             {
